@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="DevBase">
+        <HintPath>..\Libraries\DevBase.dll</HintPath>
+      </Reference>
+      <Reference Include="DevBase.Api">
+        <HintPath>..\Libraries\DevBase.Api.dll</HintPath>
+      </Reference>
+      <Reference Include="DevBase.Cryptography">
+        <HintPath>..\Libraries\DevBase.Cryptography.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
